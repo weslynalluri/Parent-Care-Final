@@ -1,0 +1,24 @@
+{
+  "algorithm": "Random Forest Classifier",
+  "total_records": 9668,
+  "training_records": 7734,
+  "test_records": 1934,
+  "accuracy": 100.0,
+  "features_used": 7,
+  "target": "Wellness_Category",
+  "classes": [
+    "Critical",
+    "Healthy",
+    "High Risk",
+    "Moderate"
+  ],
+  "feature_importances": {
+    "Age": 4.9,
+    "Avg_Daily_Screen_Time_hr": 63.4,
+    "Educational_to_Recreational_Ratio": 1.6,
+    "Poor_Sleep": 20.1,
+    "Eye_Strain": 4.5,
+    "Anxiety": 3.3,
+    "Obesity_Risk": 2.3
+  }
+}
